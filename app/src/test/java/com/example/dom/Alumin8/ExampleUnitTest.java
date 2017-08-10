@@ -1,4 +1,4 @@
-package com.example.dom.alumin8businesscard;
+package com.example.dom.Alumin8;
 
 import org.junit.Test;
 

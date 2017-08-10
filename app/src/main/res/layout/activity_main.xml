@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="5dp"
     android:background="@drawable/cloudsmin2"
-    tools:context="com.example.dom.alumin8businesscard.MainActivity">
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.dom.Alumin8.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -16,31 +16,31 @@
         android:src="@drawable/alumin8logo"/>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:background="@color/white"
-        android:layout_weight="3"
-        android:padding="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp">
+        android:layout_marginTop="10dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="alumin8 the world, one can at time."
+            android:layout_weight="1"
+            android:text="@string/tagline"
             android:textColor="@color/darkBlue"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_weight="1" />
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="vertical"
             android:layout_weight="2"
+            android:orientation="vertical"
             android:padding="10dp">
             
             <LinearLayout
@@ -59,14 +59,14 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:gravity="center_vertical"
                     android:layout_marginLeft="5dp"
+                    android:layout_weight="4"
                     android:fontFamily="sans-serif-light"
-                    android:text="2124 Y St,\nLincoln, NE 68503" />
+                    android:gravity="center_vertical"
+                    android:text="2124 Y St,\nLincoln, NE 68503"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -80,20 +80,20 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/websymbol"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:src="@drawable/websymbol" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
                     android:layout_marginLeft="5dp"
-                    android:gravity="center_vertical"
+                    android:layout_weight="4"
                     android:fontFamily="sans-serif-light"
-                    android:text="www.alumin8.org" />
+                    android:gravity="center_vertical"
+                    android:text="www.alumin8.org"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -107,20 +107,20 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/emailsymbol"
-                    android:padding="11dp"/>
+                    android:padding="11dp"
+                    android:src="@drawable/emailsymbol" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:textColor="@color/black"
-                    android:fontFamily="sans-serif-light"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
                     android:layout_marginLeft="5dp"
+                    android:layout_weight="4"
+                    android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
-                    android:text="contact@alumin8.org" />
+                    android:text="contact@alumin8.org"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -129,8 +129,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="vertical"
             android:layout_weight="0.5"
+            android:orientation="vertical"
             android:padding="10dp"></LinearLayout>
 
     </LinearLayout>
